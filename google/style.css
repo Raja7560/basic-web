@@ -1,0 +1,94 @@
+ * {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    font-family: sans-serif;
+  }
+
+.logo {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+input {
+  width: 450px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  background: url(./img/sss.png) no-repeat,
+  url(./img/ss.svg) no-repeat;
+  background-position: right 15px center, left 13px center;
+  background-size: 23px 20px;
+
+}
+input:focus{
+  outline: none;
+  box-shadow: 0.4px 1px 1.5px 0.6px #cccccc;
+}
+.ips{
+   padding-top: 10px;
+}
+
+.btnc{
+  margin-top: 18px;
+}
+.btn{
+  padding: 10px 15px;
+  border: none;
+  color: gray;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+div.lang{
+  margin-top: 30px;
+}
+ul.lang{
+  list-style-type: none;
+}
+
+ul.lang li{
+  display: inline;
+  font-size: 14px;
+  margin-right: 10px;
+}
+ul.lang li>a{
+  text-decoration: none;
+}
+
+.gmail ul{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin-top: 25px;
+}
+.gmail ul li{
+  display: inline;
+  padding-right: 25px;
+  font-size: 15px;
+}
+
+.gmail ul li>a{
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
+
+footer ul{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+footer ul li{
+  display: inline;
+  padding-right: 15px;
+  font-size: 15px;
+}
+footer ul li>a{
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
+
